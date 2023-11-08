@@ -1,23 +1,23 @@
 # Using the Wireshark Packet Analyzer Tool to Find the ID and Password of the HTTP Website 
 
-In Kali Linux open Wireshark program by entering
+1. In Kali Linux open Wireshark program by entering
 
-    sudo wireshark
+       sudo wireshark
 
-Start Capturing
+2. Start Capturing
 
-Go to the http login page and enter credentials.
+3. Go to the http login page and enter credentials.
 
-Hit enter and comeback to Wireshark
+4. Hit enter and comeback to Wireshark
 
-Stop Capture
+5. Stop Capture
 
-Enter the following command on filter
+6. Enter the following command on filter
 
-    http.request.method=="POSTS"
+       http.request.method=="POSTS"
 
-Hit Enter
+7. Hit Enter
 
-Search each traffic for HTML Form URL Encoded
+8. Search each traffic for HTML Form URL Encoded
 
-The encoded form will contain entered credentials.
+9. The encoded form will contain entered credentials.
