@@ -5,6 +5,7 @@ In Kali Linux open Wireshark program by entering
     sudo wireshark
 
 Start Capturing
+
 Go to the http login page and enter credentials.
 Hit enter and comeback to Wireshark
 Stop Capture
